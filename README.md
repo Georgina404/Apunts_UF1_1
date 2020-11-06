@@ -65,4 +65,28 @@ Durant l'explotació del sistema del software és necessari realitzar canvis oca
 
 Obtenim informes d'errors i control de canvis.
 
-### Resultat després de cada fase
+### Models de desenvolupament de Software
+- Models clàssics (predictius)
+    - Model en cascada
+    - Model en V
+- Models de construcció de prototips
+- Models evolutius o incrementals
+    - Model en espiral (iteratius)
+    - Metodologies àgils (adaptatius)
+#### Models en cascada
+##### Model en cascada
+Model més antic. Identifica les fases principals del desenvolupament software i les fases es realitzen en ordre:
+```sh
+Anàlisis > Disseny > Codificació > Proves > Manteniment
+```
+És un model rígid que no s'adapta bé quan hi ha canvis d'especificació. Existeixen diferents variants amb major o menos quantitat d'activitats.
+
+##### Model en V
+Model similar al de cascada en la que hi ha una jerarquía en diferents nivells. Els nivells superiors indiquen major abstracció i els inferiors més detall. El resultat d'una fase és l'entrada de la següent. Existeixen diferents variants amb major o menos quantitat d'activitats.
+```sh
+Preanàlisis > Anàlisis > Disseny > Desenvolupament > Implantació > Proves unitat > Proves integració > Operació > Manteniment
+```
+Hi ha verificació i validació entre els nivells.
+
+#### Models de construcció de prototips
+Requisits no especificats amb claritat (per falta d'experiència prèvia i per falta de concreció del client/usuari).
