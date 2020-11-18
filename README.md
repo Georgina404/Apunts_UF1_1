@@ -89,4 +89,10 @@ Preanàlisis > Anàlisis > Disseny > Desenvolupament > Implantació > Proves uni
 Hi ha verificació i validació entre els nivells.
 
 #### Models de construcció de prototips
-Requisits no especificats amb claritat (per falta d'experiència prèvia i per falta de concreció del client/usuari).
+Requisits no especificats amb claritat (per falta d'experiència prèvia i per falta de concreció del client/usuari). Consisteixen en la creació d'un prototip durant la fase d'anàlisi i probat de cara a ajustar els requisits del software.
+
+##### Tipus de prototips
+- Prototips ràpids: pot utilitzar un altre llenguatge/eina i és descartat finalment.
+- Prototip evolutiu: utilitza el mateix llenguatge/eina del projecte i s'utilitzar com a base per al desenvolupament de tot el projecte.
+
+##### Model en Espiral
