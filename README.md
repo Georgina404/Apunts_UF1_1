@@ -96,3 +96,11 @@ Requisits no especificats amb claritat (per falta d'experiència prèvia i per f
 - Prototip evolutiu: utilitza el mateix llenguatge/eina del projecte i s'utilitzar com a base per al desenvolupament de tot el projecte.
 
 ##### Model en Espiral
+El model en espiral es retroalimenta ja que el projecte passa varies vegades per cada fase de l'espiral.
+
+Les fases de cada cicle:
+1. Comunicació amb el client: procés d'investigació per plantejar el projecte.
+2. Planificació: es determinen els objectius i con comença i acaba el cicle.
+3. Anàlisis de risc: s'analitza tot el que pot afectar al projecte.
+4. Implementació: es desenvolupa i valida el software.
+5. Evaluació: evaluar el cicle que acabem de completar i com avançarem el projecte en el següent cicle.
