@@ -66,14 +66,76 @@ Durant l'explotació del sistema del software és necessari realitzar canvis oca
 Obtenim informes d'errors i control de canvis.
 
 ### Models de desenvolupament de Software
-- Models clàssics (predictius)
+- Models clàssics (predictius)##### Metodologies àgils
+Mètodes d'enginyeria de software basats en el desenvolupament iteratiu i incremental.
+Les metodologies més conegudes són:
+- Kanban: control segons demanda, sistema de targetes
+- Scrum: incremental, se organiza por sprints
+- XP (eXtreme Programming): per parelles, el client s'intrega a l'equip de desenvolupament
+
+## LLENGUATGES DE PROGRAMACIÓ
+### Obtenció del codi executable
+Per obtenir codi binàri executable existeixen dos opcions:
+- Compilar
+- Interpretar
+
+### Procés de compilació/interpretació
+Es du a terme dos fases:
+1. Anàlisis lèxic
+2. Anàlisis sintàctic
+Si no existeixen errors, es genera el codi objecte corresponent.
+
+### Procés de compilació/interpretació
+Exemple: C, C++,
+Avantatges: execució molt eficient
+Desavantatges: s'ha de compilar després de qualsevol modificació
+
+### Llenguatges interpretats
+Exemple: PHP, Javascript
+Avantatges: el codi font s'interpreta directament
+Desavantatges: execució menys eficient
+
+### Java
+Llenguatge compilat i interpretat. Java es compila i s'obté un codi binari intermedi anomenat bytecode. Aquest bytecode s'interpreta per executar-lo.
+Avantatges: estructurat i orientat a objectes, fàcil d'aprendre, bona documentació i base d'usuaris
+Desaventatges: menys eficient que els llenguatges compilats
+
+### Tipus
+- declaratius: indiquem el resultat sense especificar els passos. Normalment son llenguatges interpretats.
+    - lògics: utilitzen regles (Prolog)
+    - funcionals: utilitzen funcions (Lisp, Haskell)
+    - algebraicos: utilitzen sentències(SQL)
+- imperatius: indiquem els passos a seguir per obtenir un resultat. Els llenguatges orientats a objectes són també llenguatges estructurats. Molts són compilats.
+    - estructurats: C
+    - orientets a objectes: java
+    - multiparadigma: C++, Javascript
+- Segons abstracció:
+    - Baix nivell: ensamblador
+    - Nivell mitjà: C
+    - Alt nivell: C++, Java
+
+### Evolució
+1. Codi binàri
+2. Ensamblador
+3. Llenguatges estructurats
+4. Llenguatges orientats a objectes
+
+### Criteris per a la selecció d'un llenguatge
+- Camp s'aplicació
+- Experiència prèvia
+- Eines de desenvolupament
+- Documentació disponible
+- Base d'usuaris
+- Reutilització
+- Portabilitat
+- Imposició client
     - Model en cascada
     - Model en V
 - Models de construcció de prototips
 - Models evolutius o incrementals
     - Model en espiral (iteratius)
     - Metodologies àgils (adaptatius)
-#### Models en cascada
+
 ##### Model en cascada
 Model més antic. Identifica les fases principals del desenvolupament software i les fases es realitzen en ordre:
 ```sh
@@ -104,3 +166,67 @@ Les fases de cada cicle:
 3. Anàlisis de risc: s'analitza tot el que pot afectar al projecte.
 4. Implementació: es desenvolupa i valida el software.
 5. Evaluació: evaluar el cicle que acabem de completar i com avançarem el projecte en el següent cicle.
+
+##### Metodologies àgils
+Mètodes d'enginyeria de software basats en el desenvolupament iteratiu i incremental.
+Les metodologies més conegudes són:
+- Kanban: control segons demanda, sistema de targetes
+- Scrum: incremental, se organiza por sprints
+- XP (eXtreme Programming): per parelles, el client s'intrega a l'equip de desenvolupament
+
+## LLENGUATGES DE PROGRAMACIÓ
+### Obtenció del codi executable
+Per obtenir codi binàri executable existeixen dos opcions:
+- Compilar
+- Interpretar
+
+### Procés de compilació/interpretació
+Es du a terme dos fases:
+1. Anàlisis lèxic
+2. Anàlisis sintàctic
+Si no existeixen errors, es genera el codi objecte corresponent.
+
+### Procés de compilació/interpretació
+Exemple: C, C++,
+Avantatges: execució molt eficient
+Desavantatges: s'ha de compilar després de qualsevol modificació
+
+### Llenguatges interpretats
+Exemple: PHP, Javascript
+Avantatges: el codi font s'interpreta directament
+Desavantatges: execució menys eficient
+
+### Java
+Llenguatge compilat i interpretat. Java es compila i s'obté un codi binari intermedi anomenat bytecode. Aquest bytecode s'interpreta per executar-lo.
+Avantatges: estructurat i orientat a objectes, fàcil d'aprendre, bona documentació i base d'usuaris
+Desaventatges: menys eficient que els llenguatges compilats
+
+### Tipus
+- declaratius: indiquem el resultat sense especificar els passos. Normalment son llenguatges interpretats.
+    - lògics: utilitzen regles (Prolog)
+    - funcionals: utilitzen funcions (Lisp, Haskell)
+    - algebraicos: utilitzen sentències(SQL)
+- imperatius: indiquem els passos a seguir per obtenir un resultat. Els llenguatges orientats a objectes són també llenguatges estructurats. Molts són compilats.
+    - estructurats: C
+    - orientets a objectes: java
+    - multiparadigma: C++, Javascript
+- Segons abstracció:
+    - Baix nivell: ensamblador
+    - Nivell mitjà: C
+    - Alt nivell: C++, Java
+
+### Evolució
+1. Codi binàri
+2. Ensamblador
+3. Llenguatges estructurats
+4. Llenguatges orientats a objectes
+
+### Criteris per a la selecció d'un llenguatge
+- Camp s'aplicació
+- Experiència prèvia
+- Eines de desenvolupament
+- Documentació disponible
+- Base d'usuaris
+- Reutilització
+- Portabilitat
+- Imposició client
