@@ -66,7 +66,9 @@ Durant l'explotació del sistema del software és necessari realitzar canvis oca
 Obtenim informes d'errors i control de canvis.
 
 ### Models de desenvolupament de Software
-- Models clàssics (predictius)##### Metodologies àgils
+- Models clàssics (predictius)
+
+##### Metodologies àgils
 Mètodes d'enginyeria de software basats en el desenvolupament iteratiu i incremental.
 Les metodologies més conegudes són:
 - Kanban: control segons demanda, sistema de targetes
